@@ -29,7 +29,7 @@ function isiSemuaBensin(daftar) {
 }
 
 function isiSemuaDaya(daftar) {
-  daftar.forEach((x) => x.isiDaya(400));
+  daftar.forEach((x) => x.isiDaya(40));
 }
 
 const avanza = new MobilBensin("Avanza_3149");
