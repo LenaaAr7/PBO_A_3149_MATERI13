@@ -1,4 +1,3 @@
-// Tiga objek kemampuan
 const pembersih = {
   bersihkan() {
     console.log(`${this.nama} membersihkan ruangan.`);
@@ -35,8 +34,8 @@ class RobotKurir {
 applyCapabilities(RobotRumah, pembersih, penjaga);
 applyCapabilities(RobotKurir, pengantar);
 
-const robotRumah = new RobotRumah("RobotRumah_XXXX");
-const robotKurir = new RobotKurir("RobotKurir_XXXX");
+const robotRumah = new RobotRumah("RobotRumah_3149");
+const robotKurir = new RobotKurir("RobotKurir_3149");
 
 robotRumah.bersihkan();
 robotRumah.patroli();
